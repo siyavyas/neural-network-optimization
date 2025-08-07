@@ -2,7 +2,7 @@
 
 A comprehensive C++ implementation of neural networks with optimization algorithms, featuring machine learning evaluation on the Iris dataset.
 
-## 🚀 Features
+## Features
 
 - **Neural Network Implementation**: Custom neural network with configurable layers and activation functions
 - **Activation Functions**: Sigmoid, ReLU, and Softmax activation functions
@@ -11,7 +11,7 @@ A comprehensive C++ implementation of neural networks with optimization algorith
 - **Stratified Sampling**: Balanced data splitting for fair evaluation
 - **Performance Benchmarking**: Google Benchmark integration for performance analysis
 
-## 📊 Project Structure
+## Project Structure
 
 ```
 optimization/
@@ -25,14 +25,14 @@ optimization/
 └── target/              # Build outputs
 ```
 
-## 🛠️ Dependencies
+## Dependencies
 
 - **Eigen3**: Linear algebra operations
 - **Google Test**: Unit testing framework
 - **Google Benchmark**: Performance benchmarking
 - **CMake**: Build system
 
-## 🏗️ Building the Project
+## Building the Project
 
 ### Prerequisites
 - C++17 compatible compiler
@@ -57,7 +57,7 @@ make -C build
 ./target/bin/evaluate_iris_classifier
 ```
 
-## 📈 Evaluation Results
+## Evaluation Results
 
 The neural network classifier achieves excellent performance on the Iris dataset:
 
@@ -72,7 +72,7 @@ The neural network classifier achieves excellent performance on the Iris dataset
 - **Best Fold**: 100% accuracy
 - **Worst Fold**: 53.33% accuracy
 
-## 🧪 Testing
+## Testing
 
 ### Unit Tests
 ```bash
@@ -114,7 +114,7 @@ Comprehensive evaluation including:
 - Confusion matrix
 - K-fold cross-validation
 
-## 🧠 Neural Network Architecture
+## Neural Network Architecture
 
 ### Model Configuration
 - **Input Layer**: 4 features (sepal length, sepal width, petal length, petal width)
@@ -128,7 +128,7 @@ Comprehensive evaluation including:
 - **ReLU**: max(0, x)
 - **Softmax**: e^(x_i) / Σ(e^(x_j))
 
-## 📊 Metrics Calculation
+## Metrics Calculation
 
 ### Classification Metrics
 - **Accuracy**: (True Positives + True Negatives) / Total
@@ -141,7 +141,7 @@ Comprehensive evaluation including:
 - **Stratified Sampling**: Maintains class distribution across folds
 - **Statistical Analysis**: Mean and standard deviation of accuracy
 
-## 🔬 Technical Details
+## Technical Details
 
 ### Data Processing
 - **CSV Parsing**: Custom CSV parser for Iris dataset
@@ -155,7 +155,7 @@ Comprehensive evaluation including:
 - **Weight Updates**: Stochastic gradient descent
 - **Matrix Operations**: Eigen library for efficient linear algebra
 
-## 📝 Code Quality
+## Code Quality
 
 ### Design Principles
 - **Modular Architecture**: Separated concerns (data, models, evaluation)
@@ -169,7 +169,7 @@ Comprehensive evaluation including:
 - **Performance Tests**: Benchmarking critical operations
 - **Evaluation Tests**: Real-world dataset validation
 
-## 🎯 Future Enhancements
+## Future Enhancements
 
 - [ ] Support for different activation functions
 - [ ] Mini-batch gradient descent
@@ -180,15 +180,11 @@ Comprehensive evaluation including:
 - [ ] Model serialization/deserialization
 - [ ] Hyperparameter optimization
 
-## 📄 License
-
-This project is open source and available under the MIT License.
-
-## 🤝 Contributing
+## Contributing
 
 Contributions are welcome! Please feel free to submit a Pull Request.
 
-## 📞 Contact
+## Contact
 
 For questions or suggestions, please open an issue on GitHub.
 
